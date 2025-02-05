@@ -22,3 +22,11 @@ The different images, fonts, texts and video are available in the asssets folder
 - Every background image should cover its entire section.
 - The website should have as many semantic elements as possible.
 - The menu should be fixed to the top of the window at all time.
+
+When you are familiar with concept of props, try to create components that you can reuse, but change the props that you pass down. For instance:
+
+- Create ONE component for a section and let it accept props.
+- Create ONE component for the red boxes, and have some props passed down to it.
+- Create ONE component for the links at the top, but let it accept props in order to change the content.
+
+The black boxes are a little but harder but you will figure a nice solution out.
